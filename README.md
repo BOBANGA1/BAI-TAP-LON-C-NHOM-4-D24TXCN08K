@@ -1,4 +1,4 @@
-# NHOM-4: Nguyễn Minh Ngọc (K24DTCN378) - Đào Quang Anh (K24DTCN) -  Hoàng Thị Như Quỳnh (K24DTCN) - Trần Văn Khánh (K24DTCN
+# NHOM-4: Nguyễn Minh Ngọc (K24DTCN378) - Đào Quang Anh (K24DTCN358) -  Hoàng Thị Như Quỳnh (K24DTCN) - Trần Văn Khánh (K24DTCN
 BAI TAP GIUA KY MON C++
 Cài Đặt chương trình:
 
