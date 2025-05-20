@@ -15,7 +15,7 @@ void Menu::print_login_frame() {
     system("cls");
     std::string s = R"(
                                         _________________________________________
-                                       |                                         |
+                                       |N4-D24TXCN08K                            |
                                        |           WELCOME TO OUR BANK           |
                                        |              PLEASE LOGIN!              |
                                        |_________________________________________|
@@ -37,7 +37,7 @@ void Menu::print_change_information() {
     system("cls");
     std::string s = R"(
                                         ________________________________________
-                                       |                                        |
+                                       |N4-D24TXCN08K                           |
                                        |           CHANGE INFORMATION           |
                                        |________________________________________|
                                        |                                        |
@@ -71,7 +71,7 @@ void Menu::print_user_menu() {
     system("cls");
     std::string str = R"(
                                         ________________________________________
-                                       |                                        |
+                                       |N4-D24TXCN08K                           |
                                        |           USER'S BANKING MENU          |
                                        |________________________________________|
                                        |                                        |
@@ -96,7 +96,7 @@ void Menu::print_manager_menu() {
     system("cls");
     std::string str = R"(
                                         ________________________________________
-                                       |                                        |
+                                       |N4-D24TXCN08K                           |
                                        |         MANAGER'S BANKING MENU         |
                                        |________________________________________|
                                        |                                        |
@@ -118,8 +118,8 @@ void Menu::notification(std::string s, int x, int y) {
     system("cls");
     std::cout << R"(
                              _____________________________________________________________
-                            |                                                             |
-                            |                    O~~~NOTIFICATION~~~O                     |
+                            | N4-D24TXCN08K                                               |
+                            |                O~~~CAM ON VA HEN GAP LAI~~~O                |
                             |                                                             |
                             |                                                             |
                             |                                                             |
@@ -135,7 +135,7 @@ void Menu::create_account_screen() {
     system("cls");
     std::string s = R"(
                     _________________________________________________________________________________
-                   |                                                                                 |
+                   | N4-D24TXCN08K                                                                   |
                    |                      CREATE AN ACCOUNT FOR THE LOGIN USER                       |
                    |_________________________________________________________________________________|
                    |                                        |                                        |
@@ -160,7 +160,7 @@ void Menu::create_account_for_user_screen() {
     system("cls");
     std::cout << R"(
                                         ________________________________________
-                                       |                                        |
+                                       | N4-D24TXCN08K                          |
                                        |     CREATE AN ACCOUNT FOR THE USER     |
                                        |________________________________________|
                                        |                                        |
@@ -199,7 +199,7 @@ void Menu::print_otp() {
                                        |                                        |
                                        | Enter new                              |
                                        |________________________________________|
-                                       |                                        |
+                                       |N4-D24TXCN08K                           |
                                        |          OTP:                          |
                                        |   __________________________________   |                           
                                        |  |                                  |  |  
@@ -214,7 +214,7 @@ void Menu::print_otp() {
 void Menu::identification_information() {    
     system("cls");
     std::string str = R"(
-    IDENTIFICATION INFORMATION
+    IDENTIFICATION INFORMATION                                              N4-D24TXCN08K
     --------------------------------------------------------------------------------------
     
     Full Name:                              
@@ -222,7 +222,7 @@ void Menu::identification_information() {
     Gender:
     
 
-    ACCOUNT INFORMATION
+    ACCOUNT INFORMATION                                                      N4-D24TXCN08K
     --------------------------------------------------------------------------------------
     Account Balance:
     Phone Number:
@@ -239,7 +239,7 @@ void Menu::transfer_money_screen(){
     system("cls");
     std::cout << R"(
                                         ________________________________________
-                                       |                                        |
+                                       |N4-D24TXCN08K                           |
                                        |             TRANSFER MONEY             |
                                        |________________________________________|
                                        |                                        |
@@ -267,7 +267,7 @@ void Menu::print_transaction_history() {
     TRANSACTION HISTORY     
     -------------------                                                      Note that pressing the 'Tab' will back
     _______________________________________________________________________________________________________________
-                                                                                                                  
+    N4-D24TXCN08K                                                                                                              
     DATE OF IMPLEMENTATION               TRANSACTION                                  AMOUNT    
     _______________________________________________________________________________________________________________
 
@@ -279,7 +279,7 @@ void Menu::print_list_of_users_main() {
     system("cls");
     std::string s = R"(
                                         ________________________________________
-                                       |                                        |
+                                       |N4-D24TXCN08K                           |
                                        |              LIST OF USERS             |
                                        |________________________________________|
                                        |                                        | 
@@ -298,7 +298,7 @@ void Menu::print_log_in_user_account() {
     system("cls");
     std::string s = R"(
                                         ________________________________________
-                                       |                                        |  
+                                       |N4-D24TXCN08K                                        |  
                                        | Enter the username to search for:      |
                                        |________________________________________|    
                                        |                                        |
@@ -310,7 +310,7 @@ void Menu::print_log_in_user_account() {
 void Menu::print_list_of_user() {
     system("cls");
     std::cout << R"(
-    LIST OF USERS
+    LIST OF USERS                                                                                     N4-D24TXCN08K
     ------------                                                             Note that pressing the 'Tab' will back
     _______________________________________________________________________________________________________________
 
@@ -323,7 +323,7 @@ void Menu::print_list_of_user() {
 void Menu::system_transaction_history_screen(){
     system("cls");
     std::cout << R"(                                              
-    SYSTEM TRANSACTION HISTORY
+    SYSTEM TRANSACTION HISTORY                                                                        N4-D24TXCN08K
     --------------------------                                               Note that pressing the 'Tab' will back
     _______________________________________________________________________________________________________________
 
@@ -337,7 +337,7 @@ void Menu::print_create_password() {
     system("cls");
     std::string s = R"(
                                         ________________________________________
-                                       |                                        |  
+                                       | N4-D24TXCN08K                          |  
                                        |            CREATE PASSWORD             |
                                        |________________________________________|    
                                        |                                        |
