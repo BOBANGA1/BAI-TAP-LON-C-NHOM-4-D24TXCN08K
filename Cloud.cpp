@@ -3,7 +3,7 @@
 void Cloud::backup() {
     std::string command, commit_msg;
 
-    // Lấy thời gian hiện tại
+    // Lấy thời gian hiện tại với hàm localtime()
     time_t now = time(0);
     tm *ltm = localtime(&now);
     char buffer[20];
