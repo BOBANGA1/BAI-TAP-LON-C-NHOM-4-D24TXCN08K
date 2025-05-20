@@ -15,8 +15,8 @@ void Menu::print_login_frame() {
     system("cls");
     std::string s = R"(
                                         _________________________________________
-                                       |N4-D24TXCN08K                            |
-                                       |             WELCOME GUEST!!             |
+                                       |N4-D24TXCN08k                            |
+                                       |            WELCOME TO GUEST             |
                                        |              PLEASE LOGIN!              |
                                        |_________________________________________|
                                        |                                         | 
@@ -28,7 +28,7 @@ void Menu::print_login_frame() {
                                        |                                         |
                                        | Note that pressing the 'Tab' will exit  |
                                        |_________________________________________|
-                                                   Press '+' to create an account                                       
+                                              Press '+' to create an account                                       
     )";
     std::cout << s;
 }
@@ -37,29 +37,29 @@ void Menu::print_change_information() {
     system("cls");
     std::string s = R"(
                                         ________________________________________
-                                       |N4-D24TXCN08K                           |
+                                       |N4-D24TXCN08k                           |
                                        |           CHANGE INFORMATION           |
                                        |________________________________________|
                                        |                                        |
-                                       | 1. Fullname                            |
+                                       | 1. Fullname (ho va ten)                |
                                        |________________________________________|
                                        |                                        |    
-                                       | 2. Password                            |
+                                       | 2. Password (mat khau)                 |
                                        |________________________________________|
                                        |                                        |
-                                       | 3. Address                             |
+                                       | 3. Address (dia chi)                   |
                                        |________________________________________|
                                        |                                        |
-                                       | 4. Age                                 |
+                                       | 4. Age (tuoi)                          |
                                        |________________________________________|
                                        |                                        |
-                                       | 5. Gender                              |
+                                       | 5. Gender (gioi tinh)                  |
                                        |________________________________________|
                                        |                                        |
-                                       | 6. Phone Number                        |
+                                       | 6. Phone Number (dien thoai)           |
                                        |________________________________________|
                                        |                                        |
-                                       | 7. Country                             |
+                                       | 7. Country  (quoc gia)                 |
                                        |________________________________________|
                                        |                                        |
                                        | Note that pressing the 'Tab' will exit |
@@ -71,7 +71,7 @@ void Menu::print_user_menu() {
     system("cls");
     std::string str = R"(
                                         ________________________________________
-                                       |N4-D24TXCN08K                           |
+                                       |N4-D24TXCN08k                           |
                                        |           USER'S BANKING MENU          |
                                        |________________________________________|
                                        |                                        |
@@ -96,7 +96,7 @@ void Menu::print_manager_menu() {
     system("cls");
     std::string str = R"(
                                         ________________________________________
-                                       |N4-D24TXCN08K                           |
+                                       |N4-D24TXCN08k                           |
                                        |         MANAGER'S BANKING MENU         |
                                        |________________________________________|
                                        |                                        |
@@ -118,8 +118,8 @@ void Menu::notification(std::string s, int x, int y) {
     system("cls");
     std::cout << R"(
                              _____________________________________________________________
-                            | N4-D24TXCN08K                                               |
-                            |                O~~~CAM ON VA HEN GAP LAI~~~O                |
+                            |                                                             |
+                            |               O~~~CAM ON VA HEN GAP LAI~~~O                 |
                             |                                                             |
                             |                                                             |
                             |                                                             |
@@ -135,7 +135,7 @@ void Menu::create_account_screen() {
     system("cls");
     std::string s = R"(
                     _________________________________________________________________________________
-                   | N4-D24TXCN08K                                                                   |
+                   |N4-D24TXCN08k                                                                    |
                    |                      CREATE AN ACCOUNT FOR THE LOGIN USER                       |
                    |_________________________________________________________________________________|
                    |                                        |                                        |
@@ -160,7 +160,7 @@ void Menu::create_account_for_user_screen() {
     system("cls");
     std::cout << R"(
                                         ________________________________________
-                                       | N4-D24TXCN08K                          |
+                                       |N4-D24TXCN08k                           |
                                        |     CREATE AN ACCOUNT FOR THE USER     |
                                        |________________________________________|
                                        |                                        |
@@ -199,7 +199,7 @@ void Menu::print_otp() {
                                        |                                        |
                                        | Enter new                              |
                                        |________________________________________|
-                                       |N4-D24TXCN08K                           |
+                                       |                                        |
                                        |          OTP:                          |
                                        |   __________________________________   |                           
                                        |  |                                  |  |  
@@ -214,7 +214,7 @@ void Menu::print_otp() {
 void Menu::identification_information() {    
     system("cls");
     std::string str = R"(
-    IDENTIFICATION INFORMATION                                              N4-D24TXCN08K
+    IDENTIFICATION INFORMATION
     --------------------------------------------------------------------------------------
     
     Full Name:                              
@@ -222,7 +222,7 @@ void Menu::identification_information() {
     Gender:
     
 
-    ACCOUNT INFORMATION                                                      N4-D24TXCN08K
+    ACCOUNT INFORMATION
     --------------------------------------------------------------------------------------
     Account Balance:
     Phone Number:
@@ -239,7 +239,7 @@ void Menu::transfer_money_screen(){
     system("cls");
     std::cout << R"(
                                         ________________________________________
-                                       |N4-D24TXCN08K                           |
+                                       |                                        |
                                        |             TRANSFER MONEY             |
                                        |________________________________________|
                                        |                                        |
@@ -267,7 +267,7 @@ void Menu::print_transaction_history() {
     TRANSACTION HISTORY     
     -------------------                                                      Note that pressing the 'Tab' will back
     _______________________________________________________________________________________________________________
-    N4-D24TXCN08K                                                                                                              
+                                                                                                                  
     DATE OF IMPLEMENTATION               TRANSACTION                                  AMOUNT    
     _______________________________________________________________________________________________________________
 
@@ -279,7 +279,7 @@ void Menu::print_list_of_users_main() {
     system("cls");
     std::string s = R"(
                                         ________________________________________
-                                       |N4-D24TXCN08K                           |
+                                       |                                        |
                                        |              LIST OF USERS             |
                                        |________________________________________|
                                        |                                        | 
@@ -298,7 +298,7 @@ void Menu::print_log_in_user_account() {
     system("cls");
     std::string s = R"(
                                         ________________________________________
-                                       |N4-D24TXCN08K                                        |  
+                                       |                                        |  
                                        | Enter the username to search for:      |
                                        |________________________________________|    
                                        |                                        |
@@ -310,7 +310,7 @@ void Menu::print_log_in_user_account() {
 void Menu::print_list_of_user() {
     system("cls");
     std::cout << R"(
-    LIST OF USERS                                                                                     N4-D24TXCN08K
+    LIST OF USERS
     ------------                                                             Note that pressing the 'Tab' will back
     _______________________________________________________________________________________________________________
 
@@ -323,7 +323,7 @@ void Menu::print_list_of_user() {
 void Menu::system_transaction_history_screen(){
     system("cls");
     std::cout << R"(                                              
-    SYSTEM TRANSACTION HISTORY                                                                        N4-D24TXCN08K
+    SYSTEM TRANSACTION HISTORY
     --------------------------                                               Note that pressing the 'Tab' will back
     _______________________________________________________________________________________________________________
 
@@ -337,7 +337,7 @@ void Menu::print_create_password() {
     system("cls");
     std::string s = R"(
                                         ________________________________________
-                                       | N4-D24TXCN08K                          |  
+                                       |                                        |  
                                        |            CREATE PASSWORD             |
                                        |________________________________________|    
                                        |                                        |
