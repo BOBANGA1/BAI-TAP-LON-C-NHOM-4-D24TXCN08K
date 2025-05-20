@@ -16,7 +16,7 @@ void Menu::print_login_frame() {
     std::string s = R"(
                                         _________________________________________
                                        |N4-D24TXCN08K                            |
-                                       |           WELCOME TO OUR BANK           |
+                                       |             WELCOME GUEST!!             |
                                        |              PLEASE LOGIN!              |
                                        |_________________________________________|
                                        |                                         | 
