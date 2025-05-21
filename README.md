@@ -64,7 +64,7 @@ Logic hệ thống:
 ![image](https://github.com/user-attachments/assets/ae4b8bd2-9760-4883-a8ad-91964fb9dcc9)
 
 Mô tả chương trình:
-![screencapture-uis-ptithcm-edu-vn-2024-12-17-21_18_23](https://github.com/user-attachments/assets/993a448f-e6cf-459a-ad8f-34827f47989f)
+
  
 
 -Lưu ý: hệ thống có thể gặp lỗi xung đột kiểu dữ liệu của thư viện có sẵn trong visual studio code mặc dù đã test máy khác nhưng lỗi này vẫn là tiềm năng, vậy nên để fix được lỗi này manager chạy chương trình bằng cách đăng nhập vào visual studio code và mở terminal và gõ lần lượt: 
