@@ -81,7 +81,7 @@ void Menu::print_user_menu() {
                                        | 2. Check Information                   |
                                        |________________________________________|
                                        |                                        |
-                                       | 3. Transfer Money                      |
+                                       | 3. Transfer Point                     |
                                        |________________________________________|
                                        |                                        |
                                        | 4. Check Transaction History           |
@@ -199,7 +199,7 @@ void Menu::print_otp() {
                                        |                                        |
                                        | Enter new                              |
                                        |________________________________________|
-                                       |                                        |
+                                       |N4-D24TXCN08k                           |
                                        |          OTP:                          |
                                        |   __________________________________   |                           
                                        |  |                                  |  |  
@@ -214,7 +214,7 @@ void Menu::print_otp() {
 void Menu::identification_information() {    
     system("cls");
     std::string str = R"(
-    IDENTIFICATION INFORMATION
+    IDENTIFICATION INFORMATION                                               N4-D24TXCN08k
     --------------------------------------------------------------------------------------
     
     Full Name:                              
@@ -222,7 +222,7 @@ void Menu::identification_information() {
     Gender:
     
 
-    ACCOUNT INFORMATION
+    ACCOUNT INFORMATION                                                      N4-D24TXCN08k
     --------------------------------------------------------------------------------------
     Account Balance:
     Phone Number:
@@ -239,8 +239,8 @@ void Menu::transfer_money_screen(){
     system("cls");
     std::cout << R"(
                                         ________________________________________
-                                       |                                        |
-                                       |             TRANSFER MONEY             |
+                                       |N4-D24TXCN08k                           |
+                                       |             TRANSFER Point             |
                                        |________________________________________|
                                        |                                        |
                                        | Enter Amount:                          |
@@ -264,7 +264,7 @@ void Menu::transfer_money_screen(){
 void Menu::print_transaction_history() {
     system("cls");
     std::string str = R"(
-    TRANSACTION HISTORY     
+    TRANSACTION HISTORY                                                      N4-D24TXCN08k
     -------------------                                                      Note that pressing the 'Tab' will back
     _______________________________________________________________________________________________________________
                                                                                                                   
@@ -279,7 +279,7 @@ void Menu::print_list_of_users_main() {
     system("cls");
     std::string s = R"(
                                         ________________________________________
-                                       |                                        |
+                                       |N4-D24TXCN08k                           |
                                        |              LIST OF USERS             |
                                        |________________________________________|
                                        |                                        | 
@@ -298,7 +298,7 @@ void Menu::print_log_in_user_account() {
     system("cls");
     std::string s = R"(
                                         ________________________________________
-                                       |                                        |  
+                                       | N4-D24TXCN08k                          |  
                                        | Enter the username to search for:      |
                                        |________________________________________|    
                                        |                                        |
@@ -310,7 +310,7 @@ void Menu::print_log_in_user_account() {
 void Menu::print_list_of_user() {
     system("cls");
     std::cout << R"(
-    LIST OF USERS
+    LIST OF USERS                                                            N4-D24TXCN08k                                    
     ------------                                                             Note that pressing the 'Tab' will back
     _______________________________________________________________________________________________________________
 
@@ -323,7 +323,7 @@ void Menu::print_list_of_user() {
 void Menu::system_transaction_history_screen(){
     system("cls");
     std::cout << R"(                                              
-    SYSTEM TRANSACTION HISTORY
+    SYSTEM TRANSACTION HISTORY                                               N4-D24TXCN08k
     --------------------------                                               Note that pressing the 'Tab' will back
     _______________________________________________________________________________________________________________
 
@@ -337,14 +337,14 @@ void Menu::print_create_password() {
     system("cls");
     std::string s = R"(
                                         ________________________________________
-                                       |                                        |  
+                                       |N4-D24TXCN08k                           |  
                                        |            CREATE PASSWORD             |
                                        |________________________________________|    
                                        |                                        |
-                                       | Enter password                         |
+                                       | Enter password (nhap mat khau)         |
                                        |________________________________________|
                                        |                                        |  
-                                       | Enter password again                   |
+                                       | Enter password again(nhap lai mat khau)|
                                        |________________________________________|    
                                        |                                        |
                                        | Note that pressing the 'Tab' will back |
