@@ -1,3 +1,5 @@
+# NHOM-4- Lớp D24TXCN08K: Nguyễn Minh Ngọc (K24DTCN378) - Đào Quang Anh (K24DTCN358) -  Hoàng Thị Như Quỳnh (K24DTCN383)
+BAI TAP GIUA KY MON C++
 Cài Đặt chương trình:
 
 - 1.Tải Visual Studio Code
@@ -61,15 +63,9 @@ Sơ lược về hệ thống:
 - hệ thống này chưa được tối ưu về mặt thuật toán và bộ nhớ nên sẽ có đôi lúc khá chậm.
 
 Logic hệ thống: 
-![image](https://github.com/user-attachments/assets/ae4b8bd2-9760-4883-a8ad-91964fb9dcc9)
+![Drawing1](https://github.com/user-attachments/assets/7b1797b9-9872-4b74-958a-8d1229292b39)
 
 Mô tả chương trình:
 
- 
-
--Lưu ý: hệ thống có thể gặp lỗi xung đột kiểu dữ liệu của thư viện có sẵn trong visual studio code mặc dù đã test máy khác nhưng lỗi này vẫn là tiềm năng, vậy nên để fix được lỗi này manager chạy chương trình bằng cách đăng nhập vào visual studio code và mở terminal và gõ lần lượt: 
-	- g++ -o main main.cpp -static
- 	- ./main
--sau đó ctrl + click vào những đường dẫn đẫn đến file bị bug ở terminal sửa "byte"->"my_byte";
 
 
