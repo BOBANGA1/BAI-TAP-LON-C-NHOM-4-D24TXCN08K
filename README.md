@@ -1,4 +1,4 @@
-# NHOM-4- Lớp D24TXCN08K: Nguyễn Minh Ngọc (K24DTCN378) - Đào Quang Anh (K24DTCN358) -  Hoàng Thị Như Quỳnh (K24DTCN383)
+# NHÓM-4- Lớp D24TXCN08K: Nguyễn Minh Ngọc (K24DTCN378) - Đào Quang Anh (K24DTCN358) -  Hoàng Thị Như Quỳnh (K24DTCN383)
 BAI TAP GIUA KY MON C++
 Cài Đặt chương trình:
 
