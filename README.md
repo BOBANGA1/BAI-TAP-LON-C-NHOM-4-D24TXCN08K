@@ -66,6 +66,53 @@ Logic hệ thống:
 ![Drawing1](https://github.com/user-attachments/assets/7b1797b9-9872-4b74-958a-8d1229292b39)
 
 Mô tả chương trình:
+Các chức năng chính của chương trình bao gồm:
+•	Tạo mới tài khoản khi đăng ký: Chương trình cho phép người dùng tự nhập dữ liệu để tạo tài khoản, hoặc có thể có nhân viên quản lý tạo tài khoản hộ người dùng. 
+ ![Picture1](https://github.com/user-attachments/assets/35cec559-e47c-49c1-85d2-826110f514b6)
+Mật khẩu cả chữ  cả số, ký tự đặc biệt và có ít nhất 1 chữ viết hoa
+•	Lưu trữ dữ liệu: Chương trình lưu trữ dữ liệu tài khoản người dùng. 
+	
+
+ ![Picture2](https://github.com/user-attachments/assets/d57d7e9e-66f9-4de9-a7a7-7ec92145f6aa)
+![Picture3](https://github.com/user-attachments/assets/1f6b88e7-19e0-4292-85f2-8fb5d082c2a4)
+![Picture4](https://github.com/user-attachments/assets/8921583a-0177-48b4-828d-fc8353ae7e71)
+
+ 
+ 
+•	Quản lý đăng nhập:
+o	Thay đổi mật khẩu: Người dùng có thể tự thay đổi mật khẩu đăng nhập. Hệ thống cũng kiểm tra và yêu cầu người dùng thay đổi mật khẩu tự sinh trong lần đăng nhập đầu tiên. 
+o	![Picture5](https://github.com/user-attachments/assets/d33e597e-079b-4b58-9b82-beb3959ecfc1)
+![Picture6](https://github.com/user-attachments/assets/08b319e8-ffb2-4235-9ca9-ad965506107a)
+   
+o	OTP (One Time Password): Sử dụng OTP để xác thực các hoạt động thay đổi thông tin quan trọng và giao dịch
+o	. 
+o	 ![Picture7](https://github.com/user-attachments/assets/8415751e-e604-40f8-9935-37934657f91f)
+![Picture8](https://github.com/user-attachments/assets/9ac2d3a4-d77e-479a-86c4-b5931092a4fa)
+![Picture9](https://github.com/user-attachments/assets/6c68d091-00ad-4cc4-912a-38f98bcb6fa0)
+
+o	Đăng nhập: Xác thực thông tin đăng nhập của người dùng và cho phép truy cập hệ thống 
+o	Nếu đăng nhập hợp lệ 
+o	![Picture12](https://github.com/user-attachments/assets/767e4a08-65ce-4299-ace1-3fb31d8310f9)
+
+o	Nếu không hợp lệ
+o	
+![Picture11](https://github.com/user-attachments/assets/5e9c6351-04f2-4c04-8c19-5746aac1de07)
+
+•	Quản lý hoạt động ví:
+o	Quản lý số điểm (ví) và các giao dịch trao đổi, chuyển điểm giữa các ví. 
+o	![Picture14](https://github.com/user-attachments/assets/05871379-7269-4940-aa63-d1b1ab3b64b7)
+
+o	Mỗi ví có một mã số định danh duy nhất. 
+o	Có ví tổng là nguồn sinh ra điểm cho toàn hệ thống. 
+o	Thực hiện giao dịch chuyển điểm giữa các ví một cách an toàn (atomic). 
+![Picture13](https://github.com/user-attachments/assets/2e932f55-1734-4327-b1b2-098704228b96)
+
+o	Ghi nhận lịch sử giao dịch. 
+•	Báo cáo: Cho phép người dùng theo dõi số dư, lịch sử giao dịch và trạng thái giao dịch. 
+Phân chia người dùng và chức năng:
+•	Người dùng thông thường: Được phép truy xuất và điều chỉnh thông tin cá nhân của mình (tên, mật khẩu,...). 
+•	Người dùng quản lý: Ngoài các chức năng của người dùng thông thường, còn có thể theo dõi danh sách nhóm, tạo thêm tài khoản mới và điều chỉnh thông tin tài khoản của người dùng khác khi có yêu cầu.
+
 
 
 
