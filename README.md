@@ -109,9 +109,12 @@ o	Thực hiện giao dịch chuyển điểm giữa các ví một cách an toà
 
 o	Ghi nhận lịch sử giao dịch. 
 •	Báo cáo: Cho phép người dùng theo dõi số dư, lịch sử giao dịch và trạng thái giao dịch. 
+![lich su](https://github.com/user-attachments/assets/83e2d4a5-4b20-4cce-a3cd-83fb052af0e8)
 Phân chia người dùng và chức năng:
 •	Người dùng thông thường: Được phép truy xuất và điều chỉnh thông tin cá nhân của mình (tên, mật khẩu,...). 
 •	Người dùng quản lý: Ngoài các chức năng của người dùng thông thường, còn có thể theo dõi danh sách nhóm, tạo thêm tài khoản mới và điều chỉnh thông tin tài khoản của người dùng khác khi có yêu cầu.
+![image](https://github.com/user-attachments/assets/b1dae716-0807-453a-b6a1-10e3f2bac17b)
+
 
 
 
