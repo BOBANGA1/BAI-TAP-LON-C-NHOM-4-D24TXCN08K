@@ -16,14 +16,14 @@ void Menu::print_login_frame() {
     std::string s = R"(
                                         _________________________________________
                                        |N4-D24TXCN08k                            |
-                                       |            WELCOME TO GUEST             |
-                                       |              PLEASE LOGIN!              |
+                                       |             WELCOME TO GUEST            |
+                                       |              Hay dang nhap!             |
                                        |_________________________________________|
                                        |                                         | 
-                                       | Nhap username:                         |
+                                       | Nhap username:                          |
                                        |_________________________________________|
                                        |                                         |  
-                                       | Nhap mat khau:                         |
+                                       | Nhap mat khau:                          |
                                        |_________________________________________|    
                                        |                                         |
                                        |      An 'tab' de thoat chuong trinh     |
@@ -161,31 +161,31 @@ void Menu::create_account_for_user_screen() {
     std::cout << R"(
                                         ________________________________________
                                        |N4-D24TXCN08k                           |
-                                       |     CREATE AN ACCOUNT FOR THE USER     |
+                                       |      TAO TAI KHOAN CHO NGUOI DUNG      |
                                        |________________________________________|
                                        |                                        |
-                                       | 1. Enter User Name:                    |
+                                       | 1. Nhap User Name:                     |
                                        |________________________________________|
                                        |                                        |
-                                       | 2. Enter Full Name:                    |
+                                       | 2. Nhap ho va ten:                     |
                                        |________________________________________|
                                        |                                        |
-                                       | 3. Enter Age:                          |
+                                       | 3. Nhap tuoi:                          |
                                        |________________________________________|
                                        |                                        |
-                                       | 4. Enter Gender (Male : 1, Female : 0) |
+                                       | 4. Nhap gioi tinh (Nam : 1, Nu : 0)    |
                                        |________________________________________|
                                        |                                        |
-                                       | 5. Enter Phone Number:                 |
+                                       | 5. Nhap so dien thoai:                 |
                                        |________________________________________|
                                        |                                        |
-                                       | 6. Enter Address:                      |
+                                       | 6. Nhap dia chi:                      |
                                        |________________________________________|
                                        |                                        |
-                                       | 7. Enter Country:                      |
+                                       | 7. Nhap quoc gia:                      |
                                        |________________________________________|
                                        |                                        |
-                                       | Note that pressing the 'Tab' will back |
+                                       |           An 'Tab' de quay lai         |
                                        |________________________________________|)";
 }
 
@@ -207,30 +207,30 @@ void Menu::print_otp() {
                                        |  |__________________________________|  | 
                                        |________________________________________|                                       
                                        |                                        |
-                                       | Note that pressing the 'Tab' will back |
+                                       |          An 'Tab' de quay lai          |
                                        |________________________________________|)";
 }
 
 void Menu::identification_information() {    
     system("cls");
     std::string str = R"(
-    IDENTIFICATION INFORMATION                                               N4-D24TXCN08k
+    Thong tin nhan dien                                                      N4-D24TXCN08k
     --------------------------------------------------------------------------------------
     
-    Full Name:                              
-    Age:          
-    Gender:
+    Ho va ten:                              
+    Tuoi:          
+    Gioi tinh:
     
 
-    ACCOUNT INFORMATION                                                      N4-D24TXCN08k
+    Thong tin tai khoan                                                      N4-D24TXCN08k
     --------------------------------------------------------------------------------------
-    Account Balance:
-    Phone Number:
-    Country:
-    Address:
+    So du tai khoan:
+    So dien thoai:
+    Quoc gia:
+    Dia chi:
     
     --------------------------------------------------------------------------------------
-                             Note that pressing the 'Tab' will back    
+                             An 'Tab' de quay lai   
 )";
     std::cout << str;
 }
@@ -240,13 +240,13 @@ void Menu::transfer_money_screen(){
     std::cout << R"(
                                         ________________________________________
                                        |N4-D24TXCN08k                           |
-                                       |             TRANSFER Point             |
+                                       |             CHUYEN DIEM                |
                                        |________________________________________|
                                        |                                        |
-                                       | Enter Amount:                          |
+                                       | Nhap so tien:                          |
                                        |________________________________________|
                                        |                                        |
-                                       | Enter ID:                              |
+                                       | Nhap ID:                              |
                                        |________________________________________|
                                        |                                        |
                                        |          OTP:                          |
@@ -256,7 +256,7 @@ void Menu::transfer_money_screen(){
                                        |  |__________________________________|  |
                                        |________________________________________|
                                        |                                        |
-                                       | Note that pressing the 'Tab' will back |
+                                       |          An 'Tab' de quay lai          |
                                        |________________________________________|
     )";
 }
@@ -264,11 +264,11 @@ void Menu::transfer_money_screen(){
 void Menu::print_transaction_history() {
     system("cls");
     std::string str = R"(
-    TRANSACTION HISTORY                                                      N4-D24TXCN08k
-    -------------------                                                      Note that pressing the 'Tab' will back
+    LICH SU GIAO DICH                                                        N4-D24TXCN08k
+    -------------------                                                      AN 'Tab' DE QUAY LAI!!!
     _______________________________________________________________________________________________________________
                                                                                                                   
-    DATE OF IMPLEMENTATION               TRANSACTION                                  AMOUNT    
+    NGAY THUC HIEN                        GIAO DICH                                SO LUONG    
     _______________________________________________________________________________________________________________
 
 )";
@@ -280,16 +280,16 @@ void Menu::print_list_of_users_main() {
     std::string s = R"(
                                         ________________________________________
                                        |N4-D24TXCN08k                           |
-                                       |              LIST OF USERS             |
+                                       |           DANH SACH NGUOI DUNG         |
                                        |________________________________________|
                                        |                                        | 
-                                       | 1. Log In To The User's Account        |
+                                       | 1. Dang nhap tai khoan nguoi dung      |
                                        |________________________________________|
                                        |                                        |  
-                                       | 2. View List of Users                  |
+                                       | 2. Xem danh sach nguoi dung            |
                                        |________________________________________|    
                                        |                                        |
-                                       | Note that pressing the 'Tab' will back |
+                                       |     An 'Tab' de quay lai!!             |
                                        |________________________________________|)";
     std::cout << s;
 }
@@ -299,10 +299,10 @@ void Menu::print_log_in_user_account() {
     std::string s = R"(
                                         ________________________________________
                                        | N4-D24TXCN08k                          |  
-                                       | Enter the username to search for:      |
+                                       | Nhap ten nguoi dung de tim kiem:       |
                                        |________________________________________|    
                                        |                                        |
-                                       | Note that pressing the 'Tab' will back |
+                                       | An 'Tab' de quay lai                   |
                                        |________________________________________|)";
     std::cout << s;    
 }
@@ -310,11 +310,11 @@ void Menu::print_log_in_user_account() {
 void Menu::print_list_of_user() {
     system("cls");
     std::cout << R"(
-    LIST OF USERS                                                            N4-D24TXCN08k                                    
-    ------------                                                             Note that pressing the 'Tab' will back
+    Danh sach nguoi dung                                                            N4-D24TXCN08k                                    
+    ------------                                                                    An 'Tab' de quay lai
     _______________________________________________________________________________________________________________
 
-    ID WALLET            FULL NAME          PHONE NUMBER         POINTS        ADDRESS            COUNTRY
+    ID Vi            Ho ten          So dien thoai         Diem       Dia chi            Quoc Gia
     _______________________________________________________________________________________________________________
 
     )";
@@ -323,11 +323,11 @@ void Menu::print_list_of_user() {
 void Menu::system_transaction_history_screen(){
     system("cls");
     std::cout << R"(                                              
-    SYSTEM TRANSACTION HISTORY                                               N4-D24TXCN08k
-    --------------------------                                               Note that pressing the 'Tab' will back
+    Lich su giao dich he thong                                               N4-D24TXCN08k
+    --------------------------                                               An 'Tab' de quay lai
     _______________________________________________________________________________________________________________
 
-         TRANSACTION TIME                                 TRANSACTION
+         Thoi gian giao dich                                              Giao dich
     _______________________________________________________________________________________________________________
 
     )";
@@ -338,7 +338,7 @@ void Menu::print_create_password() {
     std::string s = R"(
                                         ________________________________________
                                        |N4-D24TXCN08k                           |  
-                                       |            CREATE PASSWORD             |
+                                       |            TAO MAT KHAU                |
                                        |________________________________________|    
                                        |                                        |
                                        | Enter password (nhap mat khau)         |
@@ -347,7 +347,7 @@ void Menu::print_create_password() {
                                        | Enter password again(nhap lai mat khau)|
                                        |________________________________________|    
                                        |                                        |
-                                       | Note that pressing the 'Tab' will back |
+                                       |          AN 'Tab' de quay lai          |
                                        |________________________________________|)";
     std::cout << s;    
 }
