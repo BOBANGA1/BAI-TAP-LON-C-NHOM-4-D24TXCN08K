@@ -243,7 +243,7 @@ void Menu::transfer_money_screen(){
                                        |             CHUYEN DIEM                |
                                        |________________________________________|
                                        |                                        |
-                                       | Nhap so tien:                          |
+                                       | Nhap so diem:                          |
                                        |________________________________________|
                                        |                                        |
                                        | Nhap ID:                              |
