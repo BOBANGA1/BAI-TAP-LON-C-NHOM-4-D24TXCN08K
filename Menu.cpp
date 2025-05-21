@@ -20,10 +20,10 @@ void Menu::print_login_frame() {
                                        |              PLEASE LOGIN!              |
                                        |_________________________________________|
                                        |                                         | 
-                                       | Enter username:                         |
+                                       | Nhap username:                         |
                                        |_________________________________________|
                                        |                                         |  
-                                       | Enter password:                         |
+                                       | Nhap mat khau:                         |
                                        |_________________________________________|    
                                        |                                         |
                                        | Note that pressing the 'Tab' will exit  |
