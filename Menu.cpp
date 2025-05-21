@@ -26,9 +26,9 @@ void Menu::print_login_frame() {
                                        | Nhap mat khau:                         |
                                        |_________________________________________|    
                                        |                                         |
-                                       | Note that pressing the 'Tab' will exit  |
+                                       |      An 'tab' de thoat chuong trinh     |
                                        |_________________________________________|
-                                              Press '+' to create an account                                       
+                                              An '+' de tao tai khoan                                       
     )";
     std::cout << s;
 }
@@ -38,7 +38,7 @@ void Menu::print_change_information() {
     std::string s = R"(
                                         ________________________________________
                                        |N4-D24TXCN08k                           |
-                                       |           CHANGE INFORMATION           |
+                                       |           Thay doi thong tin           |
                                        |________________________________________|
                                        |                                        |
                                        | 1. Fullname (ho va ten)                |
@@ -59,10 +59,10 @@ void Menu::print_change_information() {
                                        | 6. Phone Number (dien thoai)           |
                                        |________________________________________|
                                        |                                        |
-                                       | 7. Country  (quoc gia)                 |
+                                       | 7. Country (quoc gia)                  |
                                        |________________________________________|
                                        |                                        |
-                                       | Note that pressing the 'Tab' will exit |
+                                       |     An 'tab de thoat chuong trinh      |
                                        |________________________________________|)";
     std::cout << s;
 }
@@ -72,22 +72,22 @@ void Menu::print_user_menu() {
     std::string str = R"(
                                         ________________________________________
                                        |N4-D24TXCN08k                           |
-                                       |           USER'S BANKING MENU          |
+                                       |           Menu Nguoi dung              |
                                        |________________________________________|
                                        |                                        |
-                                       | 1. Change Information                  |
+                                       | 1. Thay doi thong tin                  |
                                        |________________________________________|
                                        |                                        |
-                                       | 2. Check Information                   |
+                                       | 2. Kiem tra thong tin                  |
                                        |________________________________________|
                                        |                                        |
-                                       | 3. Transfer Point                     |
+                                       | 3. Chuyen diem                         |
                                        |________________________________________|
                                        |                                        |
-                                       | 4. Check Transaction History           |
+                                       | 4. Kiem tra lich su giao dich          |
                                        |________________________________________|
                                        |                                        |
-                                       | Note that pressing the 'Tab' will exit |
+                                       |      An 'tab' de thoat chuong trinh    |
                                        |________________________________________|)"    ;
     std::cout << str;
 }
@@ -97,19 +97,19 @@ void Menu::print_manager_menu() {
     std::string str = R"(
                                         ________________________________________
                                        |N4-D24TXCN08k                           |
-                                       |         MANAGER'S BANKING MENU         |
+                                       |         MENU QUAN TRI                  |
                                        |________________________________________|
                                        |                                        |
-                                       | 1. List of Users                       |
+                                       | 1. Danh sach nguoi dung                |
                                        |________________________________________|
                                        |                                        |
-                                       | 2. Create User Account                 |
+                                       | 2. Tao tai khoan nguoi dung            |
                                        |________________________________________|
                                        |                                        |
-                                       | 3. System Transaction History          |
+                                       | 3. Lich su giao dich                   |
                                        |________________________________________|
                                        |                                        |
-                                       | Note that pressing the 'Tab' will exit |
+                                       |      An 'tab' de thoat chuong trinh    |
                                        |________________________________________|)"  ;
     std::cout << str;
 }
@@ -119,7 +119,7 @@ void Menu::notification(std::string s, int x, int y) {
     std::cout << R"(
                              _____________________________________________________________
                             |                                                             |
-                            |               O~~~CAM ON VA HEN GAP LAI~~~O                 |
+                            |               O~~~CAM ON BAN DA SU DUNG~~~O                 |
                             |                                                             |
                             |                                                             |
                             |                                                             |
@@ -136,22 +136,22 @@ void Menu::create_account_screen() {
     std::string s = R"(
                     _________________________________________________________________________________
                    |N4-D24TXCN08k                                                                    |
-                   |                      CREATE AN ACCOUNT FOR THE LOGIN USER                       |
+                   |                      TAO TAI KHOAN DANG NHAP HE THONG                           |
                    |_________________________________________________________________________________|
                    |                                        |                                        |
-                   | Enter Username:                        | Enter Fullname:                        |                              
+                   | Nhap Username:                         | Nhap Ho Ten:                           |                              
                    |________________________________________|________________________________________|
                    |                                        |                                        |
-                   | Enter Password:                        | Enter Age:                             |                         
+                   | Nhap Password:                         | Nhap Tuoi:                             |                         
                    |________________________________________|________________________________________|
                    |                                        |                                        |
-                   | Enter Password Again:                  | Enter Gender (Male : 1, Female : 0)    |
+                   | Nhap Lai Password:                     | Nhap Gioi Tinh (Nam : 1, Nu : 0)       |
                    |________________________________________|________________________________________|
                    |                                        |                                        |
-                   | Enter Phone Number:                    | Enter Address:                         |
+                   | Nhap So Dien Thoai:                    | Nhap Dia Chi:                          |
                    |________________________________________|________________________________________|
                    |                                        |                                        |
-                   | Note that pressing the 'Tab' will back | Enter Country:                         |
+                   | An 'Tab' de quay lai                   | Nhap Quoc Gia:                         |
                    |________________________________________|________________________________________|)";                          
     std::cout << s;                                          
 }
