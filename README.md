@@ -40,11 +40,11 @@ Cài Đặt chương trình:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Phân công thực hiện:
-Nguyễn Minh Ngọc (K24DTCN378) - Nhóm trưởng: gọi otp (gotp), main, đồng bộ git (cloud), tài khoản admin và tài khoản người dùng (account), xuất file run (run.bat), phân công công việc, viết readme.
+**Nguyễn Minh Ngọc (K24DTCN378) - Nhóm trưởng: gọi otp (gotp), main, đồng bộ git (cloud), tài khoản admin và tài khoản người dùng (account), xuất file run (run.bat), phân công công việc, viết readme.**
 
-Đào Quang Anh (K24DTCN358): xây dựng Menu, User (người dùng)
+**Đào Quang Anh (K24DTCN358): xây dựng Menu, User (người dùng).**
 
-Hoàng Thị Như Quỳnh (K24DTCN383): Information (trường thông tin), mã hóa mật khẩu (Bcrypt), mã hóa chuỗi khối (blowfish), console,
+**Hoàng Thị Như Quỳnh (K24DTCN383): Information (trường thông tin), mã hóa mật khẩu (Bcrypt), mã hóa chuỗi khối (blowfish), console.**
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Sơ lược về hệ thống:
 - tài khoản của manager năm trong class Console của file header phần private dạng nhưu sau:
