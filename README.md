@@ -45,6 +45,7 @@ Phân công thực hiện:
 **Đào Quang Anh (K24DTCN358): xây dựng Menu, User (người dùng).**
 
 **Hoàng Thị Như Quỳnh (K24DTCN383): Information (trường thông tin), mã hóa mật khẩu (Bcrypt), mã hóa chuỗi khối (blowfish), console.**
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Sơ lược về hệ thống:
 - tài khoản của manager năm trong class Console của file header phần private dạng nhưu sau:
