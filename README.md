@@ -40,6 +40,7 @@ Cài Đặt chương trình:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Phân công thực hiện:
+
 **Nguyễn Minh Ngọc (K24DTCN378) - Nhóm trưởng: gọi otp (gotp), main, đồng bộ git (cloud), tài khoản admin và tài khoản người dùng (account), xuất file run (run.bat), phân công công việc, viết readme.**
 
 **Đào Quang Anh (K24DTCN358): xây dựng Menu, User (người dùng).**
